@@ -1,5 +1,7 @@
 # OpenSSL-Apple
 
+This is a fork of the repository: [openssl-apple](https://github.com/passepartoutvpn/openssl-apple/), which was created to fix the error "ITMS-91065: Missing signature". The original version is 3.2.108. Among other things I would like to thank the author of this repository: @keeshux, thanks for your hard work brother! Please do not forget about copyright. Also please understand that you should not use this fork after updating the original repository with the fixed problem, but until that happens, you are free to use my fork.
+
 ![iOS support](https://img.shields.io/badge/iOS-12+-blue.svg)
 ![macOS support](https://img.shields.io/badge/macOS-10.14+-blue.svg)
 ![macOS Catalyst support](https://img.shields.io/badge/macOS%20Catalyst-10.14+-blue.svg)
