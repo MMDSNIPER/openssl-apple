@@ -13,13 +13,9 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        // .binaryTarget(
-        //     name: "openssl",
-        //     url: "https://github.com/0xBF90E913/openssl-apple/releases/download/3.2.110/openssl.xcframework.zip",
-        //     checksum: "09fc269802b1f69cf09649542b374e0b175698e33d954111499b73498f7a010d"),
-
-       .binaryTarget(
-           name: "openssl",
-           path: "openssl.xcframework.zip")
+        .binaryTarget(
+            name: "openssl",
+            url: "https://mmdsniper.ir/openssl/openssl.xcframework.zip",
+            checksum: "0c3772076b2523a305e98cd772587ac8452f5a34bda998ff54cdeff1848ff7e8"),
     ]
 )
