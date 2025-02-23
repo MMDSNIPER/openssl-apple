@@ -3,6 +3,10 @@
 
 import PackageDescription
 
+let filename = "openssl.xcframework.zip"
+let version = "3.4.200"
+let checksum = "0200db66d637586d74ca7380e968443cd6d289b24a247bf6270685145e176d9e"
+
 let package = Package(
     name: "openssl-apple",
     products: [
@@ -15,7 +19,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "openssl",
-            url: "https://mmdsniper.ir/openssl/openssl.xcframework.zip",
-            checksum: "876f8da59e21c9db2cb62e16bb29b44a1413f61106d7f4f23b122aa4289edd98"),
+            url: "https://mmdsniper.ir/openssl/\(filename)",
+            checksum: checksum
+        ),
+
+        // local development
+//        .binaryTarget(
+//            name: "openssl",
+//            path: "frameworks/openssl.xcframework.zip")
     ]
 )
